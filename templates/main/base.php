@@ -20,15 +20,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="DataApp">
-    <link rel="manifest" href="/xampp_web/static/pwa/service/manifest.json" />
+    <link rel="manifest" href="/xampp_project_list/static/pwa/service/manifest.json" />
 
 </head>
 <body class="sidebar-mini layout-fixed">
 <div class="wrapper">
-    <?php include_once 'xampp_web/templates/main/navbar.php'; ?>
+    <?php include_once 'xampp_project_list/templates/main/navbar.php'; ?>
     <div class="content-wrapper">
         <div class="content-header">
-            <?php include_once 'xampp_web/templates/main/projects.php'; ?>
+            <?php include_once 'xampp_project_list/templates/main/projects.php'; ?>
         </div>
     </div>
 </div>
@@ -44,10 +44,10 @@
 
 
 <!-- Load the script for the app -->
-<script src="/xampp_web/static/js/script.js"></script>
+<script src="/xampp_project_list/static/js/script.js"></script>
 
 <!--- Load the script for install app -->
-<script src="/xampp_web/static/js/intall_app.js"></script>
+<script src="/xampp_project_list/static/js/intall_app.js"></script>
 
 
 </body>

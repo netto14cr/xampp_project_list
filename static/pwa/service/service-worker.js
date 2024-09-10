@@ -1,13 +1,13 @@
 const CACHE_NAME = 'data-management-app-v1';
 const urlsToCache = [
     '/',
-    'xampp_web/static/js/script.js',
-    'xampp_web/static/js/install_app.js',
-    'xampp_web/static/pwa/service/manifest.json',
-    'xampp_web/static/pwa/service/service-worker.js',
-    'xampp_web/templates/header/navbar.php',
-    'xampp_web/templates/main/base.php',
-    'xampp_web/templates/main/index.php',
+    'xampp_project_list/static/js/script.js',
+    'xampp_project_list/static/js/install_app.js',
+    'xampp_project_list/static/pwa/service/manifest.json',
+    'xampp_project_list/static/pwa/service/service-worker.js',
+    'xampp_project_list/templates/header/navbar.php',
+    'xampp_project_list/templates/main/base.php',
+    'xampp_project_list/templates/main/index.php',
 ];
 
 self.addEventListener('install', (event) => {

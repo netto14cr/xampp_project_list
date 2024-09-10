@@ -1,4 +1,4 @@
 <?php
-include_once 'xampp_web/templates/main/base.php';
+include_once 'xampp_project_list/templates/main/base.php';
 ?>
 
